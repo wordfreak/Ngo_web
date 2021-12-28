@@ -1,7 +1,36 @@
 ul li a {
     font-size: 14px;
 }
+
+.my-nav, .first-sec{
+    background-color:#C4C4C4;
+}
 .active{
     background-color: #fff;
     border-radius: 20px;
+}
+
+.front-img{
+    height: 350px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.second-sec, .achievements{
+    background-color: #E5E5E5;
+}
+
+.word-div{
+    border-right: 6px solid #000;
+    border-radius: 5px;
+}
+
+.img-2{
+    height: 350px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.mini-sec{
+    background-color: #C4C4C4;
 }
