@@ -22,7 +22,7 @@ ul li a {
     margin-left: 15%;
 }
 
-.second-sec, .achievements, .projects{
+.second-sec, .achievements, .projects, .testimonial, .form{
     background-color: #E5E5E5;
 }
 
@@ -37,7 +37,7 @@ ul li a {
     margin-left: 15%;
 }
 
-.mini-sec{
+.mini-sec, .donors{
     background-color: #C4C4C4;
 }
 
@@ -50,4 +50,9 @@ ul li a {
 .more-btn{
     width: 20%;
     margin: 0 auto;
+}
+
+.testimonial-text{
+    margin-left: 90px;
+    padding-top: 10px;
 }
