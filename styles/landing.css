@@ -8,7 +8,23 @@ ul li a {
     font-size: 14px;
 }
 
-.my-nav, .first-sec{
+.my-nav{
+    background-color: #295F79;
+    color: #fff;
+    height: 50px;
+}
+
+.brand{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 12px;
+}
+
+.nav-text{
+    color: #F2F2F2 !important;
+}
+
+.first-sec{
     background-color:#C4C4C4;
 }
 
@@ -17,10 +33,56 @@ ul li a {
     border-radius: 20px;
 }
 
+.text-header{
+   font-size: 35px;
+   font-weight: 600;
+   color: #295F79;
+}
+
+.gmark{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 500px;
+    bottom: 35px;
+}
+
+.b-mark{
+    margin-left: 3.3em;
+    margin-top: -50px;
+    width: 30px;
+    height: 30px;
+}
+
+.sb-mark{
+    width: 5px;
+    height: 5px;
+    margin-left: 200px;
+}
+
 .front-img{
-    height: 350px;
-    width: 70%;
     margin-left: 15%;
+}
+
+.layer-container{
+    position: relative;
+}
+
+.top-layer{
+    position: relative;
+    top: 15px;
+    left: 2px;
+    z-index: 5;
+    height: 350px;
+    width: 68%;
+}
+
+.back-layer{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 350px;
+    width: 65%;
 }
 
 .footer{
@@ -52,11 +114,6 @@ ul li a {
     margin: 20px;
 }
 
-.more-btn{
-    width: 20%;
-    margin: 0 auto;
-}
-
 .testimonial-text{
     margin-left: 90px;
     padding-top: 10px;
@@ -78,7 +135,12 @@ input{
 
 .footer-item{
     margin: 5px 15px;
-    border-right: 2px solid #fff;
     padding-right: 20px;
+    padding-bottom: 20px;
     height: 20px;
+    font-size: 12px;
+}
+
+.bd-class{
+    border-right: 2px solid #fff;
 }
