@@ -11,6 +11,7 @@ ul li a {
 .my-nav, .first-sec{
     background-color:#C4C4C4;
 }
+
 .active{
     background-color: #fff;
     border-radius: 20px;
@@ -20,6 +21,10 @@ ul li a {
     height: 350px;
     width: 70%;
     margin-left: 15%;
+}
+
+.footer{
+    background-color:  #13131D;
 }
 
 .second-sec, .achievements, .projects, .testimonial, .form{
@@ -55,4 +60,25 @@ ul li a {
 .testimonial-text{
     margin-left: 90px;
     padding-top: 10px;
+}
+
+.form-div{
+    width: 80%;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #2D6A4F;
+    border-radius: 5px;
+}
+
+input{
+    width: 237px;
+}
+
+.footer-item{
+    margin: 5px 15px;
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+    height: 20px;
 }
