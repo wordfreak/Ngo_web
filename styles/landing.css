@@ -44,7 +44,7 @@ ul li a {
     height: 30px;
     position: absolute;
     left: 500px;
-    bottom: 35px;
+    bottom: 82px;
 }
 
 .b-mark{
@@ -85,16 +85,23 @@ ul li a {
     width: 65%;
 }
 
-.footer{
-    background-color:  #13131D;
+.curv{
+    position: relative;
+}
+
+.cr-img{
+    position: absolute;
+    top: 8px;
+    left: -5px;
+    width: 68% !important;
 }
 
 .second-sec, .achievements, .projects, .testimonial, .form{
-    background-color: #E5E5E5;
+    background-color: #FAF3F3;
 }
 
 .word-div{
-    border-right: 6px solid #000;
+    border-right: 6px solid #295F79;
     border-radius: 5px;
 }
 
@@ -105,7 +112,18 @@ ul li a {
 }
 
 .mini-sec, .donors{
-    background-color: #C4C4C4;
+    background-color: #295F79;
+    color: #F2F2F2;
+}
+
+.card-body{
+    background-color: #295F79;
+    color: #F2F2F2;
+}
+
+.card, .btn{
+    background-color: #295F79;
+    color: #F2F2F2;
 }
 
 .rect-img{
@@ -143,4 +161,8 @@ input{
 
 .bd-class{
     border-right: 2px solid #fff;
+}
+
+.footer{
+    background-color: #295F79;
 }
