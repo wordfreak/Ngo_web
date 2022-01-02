@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-nav{
+    margin-right: 17%;
+}
+
+.bg, .donate{
+    background-color: #295F79;
+    color: #F2F2F2;
+}
+
+.nav-link{
+    color: #F2F2F2 !important;
+}
+
+.images{
+    width: 70%;
+}
+
+.count{
+    position: relative;
+}
+
+.top-img{
+    position: absolute;
+    top: 7px;
+    left: -6px;
+}
+
+.over{
+        position: absolute;
+        top: -5px;
+        left: 6px;
+}
+
+#about{
+    background-color: #E5E5E5;
+}
