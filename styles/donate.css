@@ -23,3 +23,29 @@
     z-index: 3;
     padding-top: 25px;
 }
+
+.donate-img{
+    width: 70%;
+    padding-top: 40px;
+}
+
+.btn-sm{
+    width: 30%;
+}
+
+.form-data{
+    width: 251px;
+    font-size: 10px;
+    padding: 15px;
+    border: 1px solid #295F79;
+}
+
+.account-details{
+    padding-left: 12%;
+}
+
+.pay{
+    color: #295F79;
+    margin: 0;
+    font-weight: 600;
+}

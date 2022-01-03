@@ -4,33 +4,8 @@
     box-sizing: border-box;
 }
 
-ul li a {
-    font-size: 14px;
-}
-
-.my-nav{
-    background-color: #295F79;
-    color: #fff;
-    height: 50px;
-}
-
-.brand{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 12px;
-}
-
-.nav-text{
-    color: #F2F2F2 !important;
-}
-
 .first-sec{
     background-color:#C4C4C4;
-}
-
-.active{
-    background-color: #fff;
-    border-radius: 20px;
 }
 
 .text-header{
