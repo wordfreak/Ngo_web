@@ -54,5 +54,46 @@
         margin: 20px auto;    
 
     }
+
+    .test-wrapper{
+        padding-left: 0 !important;
+    }
+
+    .test-wrapper img{
+       width: 80px;
+       height: 80px;
+      
+    }
     
+    .form{
+        padding-top: 0 !important;
+    }
+
+    .form-div{
+        width: 60%;
+        margin: 0 auto;
+        height: 250px;
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    input, textarea{
+        width: 150px;
+    }
+
+    textarea{
+        height: 80px;
+    }
+
+    .form-btn{
+      font-size: 12px;
+    }
+
+    .address{
+        margin-bottom: 0 !important;
+    }
+
+    .donors h4{
+        font-size: 15px;
+    }
   }
