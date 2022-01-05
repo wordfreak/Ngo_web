@@ -1,7 +1,53 @@
+@media only screen and (max-width: 900px){
+    /* .b-mark, .sb-mark, .gmark{
+        display: none;
+    } */
+    
+    body{
+        font-size: 14px;
+    }
+
+    .top-layer, .back-layer{
+        height: 250px;
+        width: 300px;
+        padding: 20px;
+        margin-left: 10%;
+    }
+
+    .curv img{
+        height: 300px;
+    }
+
+    .rect-img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .card{
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .form-div{
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    input, textarea{
+        width: 200px;
+    }
+
+    textarea{
+        height: 80px;
+    }
+
+  }
+
 @media only screen and (max-width: 600px) {
     body{
         font-size: 12px;
     }
+    
     .b-mark, .sb-mark, .gmark{
         display: none;
     }
@@ -21,11 +67,7 @@
        font-size: 12px;   
     }
 
-    .top-layer{
-        height: 230px;
-    }
-
-    .back-layer{
+    .top-layer, .back-layer{
         height: 230px;
     }
 
@@ -96,4 +138,17 @@
     .donors h4{
         font-size: 15px;
     }
+
+    .acheive{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rect-img{
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+    }
   }
+
+ 

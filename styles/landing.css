@@ -141,3 +141,8 @@ input{
 .footer{
     background-color: #295F79;
 }
+
+.comma{
+    font-size: 22px;
+    font-style: italic;
+}
