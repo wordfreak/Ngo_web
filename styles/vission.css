@@ -24,6 +24,7 @@
 }
 
 .nav-link:hover{
+    text-align: center;
     background-color: #F2F2F2;
     color: #295F79 !important;
     border-radius: 50px;
