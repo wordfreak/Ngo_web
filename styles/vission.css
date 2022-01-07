@@ -28,6 +28,7 @@
     background-color: #F2F2F2;
     color: #295F79 !important;
     border-radius: 50px;
+    font-weight: 700;
 }
 
 .images{
@@ -52,4 +53,38 @@
 
 #about{
     background-color: #E5E5E5;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 990px){
+    .nav-item{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    body{
+        font-size: 14px;
+     }
+
+    .count{
+        width: 50%;    
+        margin: 0 auto !important;   
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+       font-size: 12px;
+    }
+
+    .count{
+        width: 70%;       
+    }
+
+    .col-md-6 .pb-sm-5{
+        padding-top: 0 !important;    
+        padding-bottom: 30px;    
+    }
 }

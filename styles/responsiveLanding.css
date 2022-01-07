@@ -1,8 +1,4 @@
-@media only screen and (max-width: 900px){
-    /* .b-mark, .sb-mark, .gmark{
-        display: none;
-    } */
-    
+@media only screen and (max-width: 900px){ 
     body{
         font-size: 14px;
     }
