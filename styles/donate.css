@@ -49,3 +49,15 @@
     margin: 0;
     font-weight: 600;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 767px){
+    .donate-img{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -35px;
+        padding-bottom: 20px;
+    }   
+}
+
