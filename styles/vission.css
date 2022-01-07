@@ -18,6 +18,12 @@
     color: #F2F2F2;
 }
 
+.donate-btn{
+    background-color: #fff !important;
+    color: #295F79 !important;
+    border-radius: 50px;
+}
+
 .nav-link{
     color: #F2F2F2 !important;
     transition: all ease-in-out .2s;
