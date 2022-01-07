@@ -146,3 +146,9 @@ input{
     font-size: 22px;
     font-style: italic;
 }
+
+.see-btn{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
