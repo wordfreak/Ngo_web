@@ -102,7 +102,7 @@
 }
 
 .rect-img{
-    /* width: 40%; */
+    width: 290px !important;
     height: 300px;
     margin: 20px;
 }
@@ -152,3 +152,21 @@ input{
     margin: 0 auto;
     margin-top: 15px;
 }
+
+span[aria-label="Previous"]{
+   font-size: 40px;
+   color: #295F79;
+   position: absolute;
+   top: 80px;
+   left: 0;
+   margin-left: -20px;
+}
+
+span[aria-label="Next"]{
+   font-size: 40px;
+   color: #295F79;
+   position: absolute;
+   top: 80px;
+   right: 0;
+   margin-right: -20px;  
+ }

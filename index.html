@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/vission.css">
     <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/responsiveLanding.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
 <body>
    <!--Nav Starts Here--> 
@@ -107,11 +109,29 @@
    <!--Achievements Section Starts Here-->
      <div class="container-fluid achievements">
           <h4 class="text-center pt-5">OUR ACHIEVEMENTS</h4>
-          <div class="container">
-            <div class="acheive d-flex justify-content-center">
-              <img class="rect-img" src="images/achv-img-1.png" alt="achievements-image">
-              <img class="rect-img" src="images/achv-img-2.png" alt="achievements-image">
-            </div>
+          <div class="container py-3">
+             <div class="row">
+              <div class="owl-carousel owl-theme text-center">
+                <div class="item">
+                  <img class="owl-img" src="images/achv-img-1.png" alt="">
+                </div>
+                <div class="item">
+                  <img class="owl-img" src="images/achv-img-2.png" alt="">
+                </div>
+                <div class="item">
+                  <img class="owl-img" src="images/achv-img-1.png" alt="">
+                </div>
+                <div class="item">
+                   <img class="owl-img" src="images/achv-img-2.png" alt="">
+                </div>
+                <div class="item">
+                  <img class="owl-img" src="images/achv-img-1.png" alt="">
+                </div>
+                <div class="item">
+                  <img class="owl-img" src="images/achv-img-2.png" alt="">
+                </div>
+              </div>
+             </div>
           </div>
      </div>
    <!--Achievements Section Ends Here-->
@@ -166,7 +186,7 @@
          <div class="container">
             <h4 class="text-center pt-5 pb-4">Testimonials</h4>
             <div class="row">
-               <div class="col-lg-6 ps-5 test-wrapper">
+               <div class="col-lg-6 ps-5 test-wrapper owl-carousel-2 owl-theme">
                   <div class="d-flex justify-content-center flex-row test-wrapper">
                      <img src="images/tst-img-1.png" alt="testimonial image">
                      <div class="pt-4 ms-2">
@@ -183,7 +203,7 @@
                  </div>
                </div>
 
-               <div class="col-lg-6 ps-5 test-wrapper">
+               <div class="col-lg-6 ps-5 test-wrapper owl-carousel-2 owl-theme">
                 <div class="d-flex justify-content-center flex-row test-wrapper">
                    <img src="images/tst-img-1.png" alt="testimonial image">
                    <div class="pt-4 ms-2">
@@ -261,7 +281,7 @@
          </div>
       </div>
    <!--Form Section Ends-->
-
+    
    <!--Footer Section starts-->
       <div class="container-fluid footer p-3"> 
           <h6 class="text-center text-white">Quick Links</h6>
@@ -287,7 +307,51 @@
       </div>
    <!--Footer Section Ends-->
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>    
-</body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+       $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin: 20,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1,
+                    autoplay:true
+                },
+                600:{
+                    items:2,
+                    autoplay:true
+                },
+                1000:{
+                    items:3,
+                    autoplay:true
+                }
+            }
+        });
+
+       $('.owl-carousel-2').owlCarousel({
+            loop:true,
+            margin: 0,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1,
+                    autoplay:true
+                },
+                600:{
+                    items:2,
+                    autoplay:true
+                },
+                1000:{
+                    items:3,
+                    autoplay:true
+                }
+            }
+        });
+    </script>
+  </body>
 </html>

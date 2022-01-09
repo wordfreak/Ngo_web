@@ -145,6 +145,19 @@
         height: 250px;
         margin: 20px auto;
     }
+
+    .owl-img{
+        width: 70% !important;
+        margin: 0 auto;
+    }
+
+    span[aria-label="Previous"]{
+        margin-left: 25px;
+     }
+     
+     span[aria-label="Next"]{
+        margin-right: 25px;  
+      }
   }
 
  
