@@ -170,3 +170,8 @@ span[aria-label="Next"]{
    right: 0;
    margin-right: -20px;  
  }
+
+ .owl-img-2{
+     width: 100px !important;
+     height: 100px !important;
+ }

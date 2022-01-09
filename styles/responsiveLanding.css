@@ -158,6 +158,19 @@
      span[aria-label="Next"]{
         margin-right: 25px;  
       }
+
+      .owl-img{
+          width: 100px !important;
+      }
+
+     .test-name{
+        margin-right: 40px !important;
+     }
+
+     .testimonial-text{
+         width: 80%;
+         margin: 0 auto;         
+     }
   }
 
  

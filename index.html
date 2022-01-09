@@ -111,7 +111,7 @@
           <h4 class="text-center pt-5">OUR ACHIEVEMENTS</h4>
           <div class="container py-3">
              <div class="row">
-              <div class="owl-carousel owl-theme text-center">
+              <div class="owl-one owl-carousel owl-theme text-center">
                 <div class="item">
                   <img class="owl-img" src="images/achv-img-1.png" alt="">
                 </div>
@@ -186,43 +186,49 @@
          <div class="container">
             <h4 class="text-center pt-5 pb-4">Testimonials</h4>
             <div class="row">
-               <div class="col-lg-6 ps-5 test-wrapper owl-carousel-2 owl-theme">
-                  <div class="d-flex justify-content-center flex-row test-wrapper">
-                     <img src="images/tst-img-1.png" alt="testimonial image">
-                     <div class="pt-4 ms-2">
-                        <h6>Jenifa Blue</h6>
-                        <p>Fisayo House of Fashion</p>
-                     </div>
-                  </div>
-                 <div class="testimonial-text"> 
-                  <p>
-                    <span class="comma">"</span>Lorem ipsum dolor sit amet, consectetur
-                    adipsielit. Phasellus at purus a libaro 
-                    blandit consectetur Phasellus.<span class="comma">"</span>
-                  </p>
-                 </div>
-               </div>
+                 <div class="owl-two owl-carousel owl-theme">
+                    <div class="item ps-5 test-wrapper">
+                        <div class="d-flex justify-content-center flex-row test-wrapper">
+                          <img class="owl-img-2" src="images/tst-img-1.png" alt="testimonial image">
+                          <div class="pt-4 ms-2 test-name">
+                              <h6>Jenifa Blue</h6>
+                              <p>Fisayo House of Fashion</p>
+                          </div>
+                        </div>
+                      <div class="testimonial-text"> 
+                        <p>
+                          <span class="comma">"</span>Lorem ipsum dolor sit amet, consectetur
+                          adipsielit. Phasellus at purus a libaro 
+                          blandit consectetur Phasellus.<span class="comma">"</span>
+                        </p>
+                      </div>
+                    </div>
 
-               <div class="col-lg-6 ps-5 test-wrapper owl-carousel-2 owl-theme">
-                <div class="d-flex justify-content-center flex-row test-wrapper">
-                   <img src="images/tst-img-1.png" alt="testimonial image">
-                   <div class="pt-4 ms-2">
-                      <h6>Jenifa Blue</h6>
-                      <p>Fisayo House of Fashion</p>
-                   </div>
-                </div>
-               <div class="testimonial-text"> 
-                <p>
-                  <span class="comma">"</span>Lorem ipsum dolor sit amet, consectetur
-                  adipsielit. Phasellus at purus a libaro 
-                  blandit consectetur Phasellus.<span class="comma">"</span>
-                </p>
-               </div>
-             </div>
+                      <div class="item ps-5 test-wrapper">
+                        <div class="d-flex justify-content-center flex-row test-wrapper">
+                          <img class="owl-img-2" src="images/tst-img-1.png" alt="testimonial image">
+                          <div class="pt-4 ms-2 test-name">
+                              <h6>Jenifa Blue</h6>
+                              <p>Fisayo House of Fashion</p>
+                          </div>
+                        </div>
+                      <div class="testimonial-text"> 
+                        <p>
+                          <span class="comma">"</span>Lorem ipsum dolor sit amet, consectetur
+                          adipsielit. Phasellus at purus a libaro 
+                          blandit consectetur Phasellus.<span class="comma">"</span>
+                        </p>
+                      </div>
+                      </div> 
+                 </div>    
             </div>
          </div>
       </div>
    <!--Testimonial Section Ends-->
+   
+   <!--Another owl-->
+   
+   <!--Another owl-->
 
    <!--Donors Section Starts-->
      <div class="container-fluid donors">
@@ -313,7 +319,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-       $('.owl-carousel').owlCarousel({
+       $('.owl-one').owlCarousel({
             loop:true,
             margin: 20,
             nav:true,
@@ -333,9 +339,9 @@
             }
         });
 
-       $('.owl-carousel-2').owlCarousel({
+       $('.owl-two').owlCarousel({
             loop:true,
-            margin: 0,
+            margin: 20,
             nav:true,
             responsive:{
                 0:{
@@ -343,11 +349,11 @@
                     autoplay:true
                 },
                 600:{
-                    items:2,
+                    items:1,
                     autoplay:true
                 },
                 1000:{
-                    items:3,
+                    items:2,
                     autoplay:true
                 }
             }
