@@ -20,8 +20,15 @@
 
 .donate-btn{
     background-color: #fff !important;
-    color: #295F79 !important;
     border-radius: 50px;
+}
+
+.donate-btn a {
+    color: #295F79;
+}
+
+.donate-btn a:hover{
+    color: #093e58;
 }
 
 .nav-link{
