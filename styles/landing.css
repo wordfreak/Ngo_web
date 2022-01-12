@@ -101,6 +101,16 @@
     color: #F2F2F2;
 }
 
+.btn{
+    border-radius: 50px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #295F79;
+    color: #dfd5d5 !important;
+}
+
 .rect-img{
     width: 290px !important;
     height: 300px;
@@ -148,9 +158,10 @@ input{
 }
 
 .see-btn{
-    width: 20%;
+    width: 10%;
     margin: 0 auto;
     margin-top: 15px;
+    border-radius: 50px;
 }
 
 span[aria-label="Previous"]{
