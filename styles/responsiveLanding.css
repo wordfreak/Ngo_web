@@ -1,3 +1,9 @@
+@media only screen and (max-width: 995px){
+    .see-btn{
+        width: 20%;
+    }
+}
+
 @media only screen and (max-width: 900px){ 
     body{
         font-size: 14px;
@@ -166,6 +172,18 @@
      .testimonial-text{
          width: 80%;
          margin: 0 auto;         
+     }
+
+     .see-btn{
+         width: 35%;
+     }
+
+     .address-wrapper{
+        margin-left: 60px;
+     }
+
+     .social-logos{
+         margin-left: 70px;
      }
   }
 
