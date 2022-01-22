@@ -31,7 +31,7 @@
     }
 
     .form-div{
-        width: 50%;
+        width: 100%;
         margin: 15px auto;
     }
 
@@ -115,9 +115,9 @@
 
     .form-div{
         width: 60%;
-        margin: 0 auto;
+        margin: 30px auto;
         height: 250px;
-        padding-top: 15px;
+        padding-top: 30px;
         margin-bottom: 30px;
     }
 
@@ -135,6 +135,7 @@
 
     .address{
         margin-bottom: 0 !important;
+        margin-top: 30px !important;
     }
 
     .donors h4{
@@ -178,13 +179,6 @@
          width: 35%;
      }
 
-     .address-wrapper{
-        margin-left: 60px;
-     }
-
-     .social-logos{
-         margin-left: 70px;
-     }
   }
 
  
