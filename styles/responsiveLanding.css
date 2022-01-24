@@ -50,19 +50,29 @@
         font-size: 12px;
     }
     
-    .b-mark, .sb-mark, .gmark{
-        display: none;
+    .b-mark{
+      margin-left: -65px;
+    }
+    .sb-mark{
+       margin-left: 100px;
+    }
+    
+    .gmark{
+       left: 270px;   
     }
 
-    .right{
-        margin-top: 10px !important;
-        margin-left: 0 !important;
-        margin-bottom: 20px;
+    .right button{
+        width: 50%;
+        font-size: 18px;
+    }
+
+    .layer-container{
+        margin-top: 30px;
     }
 
     .text-header{
-        font-size: 20px;
-        font-weight: 700;
+        font-size: 35px;
+        font-weight: 600;
     }
 
     .btn-lg, .btn-sm, .btn-md{
@@ -91,6 +101,18 @@
     .support{
         width: 80%;
         margin: 0 auto;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    .support button{
+        padding: 10px;
+        width: 50%;   
+        font-size: 20px; 
+    }
+
+    .support h3{
+        line-height: 1.7em;
     }
     
     .card{
