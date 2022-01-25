@@ -125,4 +125,13 @@
         padding-top: 0 !important;    
         padding-bottom: 30px;    
     }
+
+    .team-row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .team-text h6{
+        font-size: 12px;
+    }
 }

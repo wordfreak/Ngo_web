@@ -58,12 +58,14 @@
     }
     
     .gmark{
-       left: 270px;   
+       left: 300px;  
+       bottom: 120px; 
     }
 
     .right button{
-        width: 50%;
+        width: 80%;
         font-size: 18px;
+        margin-left: -10%;
     }
 
     .layer-container{
@@ -87,7 +89,8 @@
         width: 80%;
         margin: 0 auto;
         letter-spacing: 1px;
-        padding-right: 10px;
+        border: none;
+        text-align: center;
     }
 
     .curv{
