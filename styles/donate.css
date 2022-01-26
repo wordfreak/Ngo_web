@@ -56,7 +56,13 @@
 @media only screen and (max-width: 767px){
     .donate-img{
         width: 50%;
-        padding-bottom: 20px;
-    }   
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }  
+    
+    .account-details{
+        margin-bottom: 20px;
+    }
 }
 
