@@ -19,12 +19,12 @@
 }
 
 .donate-btn{
-    background-color: #fff !important;
+    background-color: #FC5F06 !important;
     border-radius: 50px;
 }
 
 .donate-btn a {
-    color: #295F79;
+    color: #fff;
 }
 
 .donate-btn a:hover{
@@ -45,6 +45,8 @@
 
 .images{
     width: 70%;
+    height: 300px;
+    margin-top: 30px;
 }
 
 .count{

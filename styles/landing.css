@@ -198,3 +198,8 @@ span[aria-label="Next"]{
  .social-logos img{
    width: 30px;   
  }
+
+ .owl-images{
+     width: 300px;
+     height: 300px;
+ }
