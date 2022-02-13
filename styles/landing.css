@@ -11,7 +11,7 @@
 .text-header{
    font-size: 30px;
    font-weight: 800;
-   color: #0169A6;
+   color: #02ccfe;
 }
 
 .gmark{
@@ -87,7 +87,7 @@
 }
 
 .mini-sec, .donors{
-    background-color: #0169A6;
+    background-color: #02ccfe;
     color: #F2F2F2;
 }
 
@@ -149,7 +149,7 @@ input{
 }
 
 .footer{
-    background-color: #0169A6;
+    background-color: #02ccfe;
 }
 
 .comma{
