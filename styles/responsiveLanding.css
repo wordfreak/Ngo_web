@@ -70,7 +70,7 @@
     .right button{
         width: 80%;
         font-size: 18px;
-        margin-left: -10%;
+        /*margin-left: -10%;*/
     }
 
     .layer-container{

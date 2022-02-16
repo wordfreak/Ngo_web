@@ -11,7 +11,7 @@
 .text-header{
    font-size: 30px;
    font-weight: 800;
-   color: #0169A6;
+   color: #02ccfe;
 }
 
 .gmark{
@@ -50,6 +50,7 @@
     z-index: 5;
     height: 350px;
     width: 68%;
+    box-shadow: 0 4px 10px;
 }
 
 .back-layer{
@@ -81,13 +82,13 @@
 } */
 
 .img-2{
-    height: 350px;
-    width: 72%;
-    margin-left: 15%;
+    height: 25em;
+    width: 25em;
+    /*margin-left: 15%;*/
 }
 
 .mini-sec, .donors{
-    background-color: #0169A6;
+    background-color: #02ccfe;
     color: #F2F2F2;
 }
 
@@ -149,7 +150,7 @@ input{
 }
 
 .footer{
-    background-color: #0169A6;
+    background-color: #02ccfe;
 }
 
 .comma{
