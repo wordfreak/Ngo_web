@@ -6,8 +6,8 @@
 }
 
 .logo{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .navbar-nav{
@@ -45,9 +45,11 @@
 
 .nav-link:hover{
     text-align: center;
-    background-color: #FC5F06;
+    /*background-color: #FC5F06;*/
+    background-color: #2e508d;
     border-radius: 50px;
-    font-weight: 700;
+    color: white !important;
+    /*font-weight: 700;*/
 }
 
 .images{

@@ -98,7 +98,8 @@
 }
 
 .card, .btn{
-    background-color: #FC5F06;
+    /*background-color: #FC5F06;*/
+    background-color: #d72635;
     color: #F2F2F2;
 }
 
