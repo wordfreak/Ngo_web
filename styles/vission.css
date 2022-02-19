@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', serif !important;
 }
 
 .logo{
@@ -19,7 +20,8 @@
 }
 
 .navbar.bg {
-    background-color: #d72635 !important;
+    /*background-color: #d72635 !important;*/
+    background-color: #2e508d !important;
 }
 
 .donate-btn{
@@ -36,7 +38,8 @@
 }
 
 .nav-link{
-    color: #F2F2F2 !important;
+    /*color: #F2F2F2 !important;*/
+    color: #2e508d !important;
     transition: all ease-in-out .2s;
 }
 
