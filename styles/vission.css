@@ -14,8 +14,12 @@
 }
 
 .bg, .donate{
-    background-color: #02ccfe;
+    background-color: #2e508d;
     color: #F2F2F2;
+}
+
+.navbar.bg {
+    background-color: #d72635 !important;
 }
 
 .donate-btn{
