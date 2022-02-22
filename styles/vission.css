@@ -38,9 +38,9 @@
     color: #093e58;
 }
 
-.nav-link{
-    /*color: #F2F2F2 !important;*/
-    color: #2e508d !important;
+a.nav-link{
+    color: #F2F2F2 !important;
+    /*color: #2e508d !important;*/
     transition: all ease-in-out .2s;
 }
 
